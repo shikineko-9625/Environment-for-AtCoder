@@ -1,0 +1,11 @@
+// io.sh 
+./sh/io.sh             # out.txtに書き込み
+./sh/io.sh memo        # memo.txtに書き込み
+./sh/io.sh term        # ターミナルに出力
+
+// build.sh
+./sh/build.sh      # main.cppをコンパイル
+./sh/build.sh a    # a.cppをコンパイル
+./sh/build.sh main debug # デバッグオプション付きでmain.cppをコンパイル
+./sh/build.sh nya debug  # デバッグオプション付きでnya.cppをコンパイル
+

@@ -1,0 +1,11 @@
+{
+    "chat.disableAIFeatures": true,
+    "cmake.ignoreCMakeListsMissing": true,
+    "chat.extensionUnification.enabled": false,
+    "terminal.integrated.stickyScroll.ignoredCommands": [
+        "clear",
+        "cls",
+        "clear-host"
+    ],
+    "terminal.integrated.shellIntegration.enabled": false
+}
