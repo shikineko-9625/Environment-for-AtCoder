@@ -1,33 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void mySort(array<int,25>& ar);
+string to_base(long long n, int base)
+{
+  string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  if (n == 0)
+    return "0";
 
-int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-
-  random_device seed_gen;
-  mt19937 engine(seed_gen());
-  uniform_int_distribution<> dist(0, 1024);
-  array<int,25> ar{};
-  for (long unsigned int i=0;i<ar.size();i++) {
-    int random_value=dist(engine);
-    ar[i]=random_value;
+  string res = "";
+  while (n > 0)
+  {
+    res = digits[n % base] + res;
+    n /= base;
   }
-
-  mySort(ar);
-
-  for (long unsigned int i=0;i<ar.size();i++) cout<<ar[i]<< ' ';
+  return res;
 }
 
-void mySort(array<int,25>& ar){
-  int n=(int)ar.size();
-  for(int i=0;i<n-1;i++){
-    for(int j=0;j<n-1-i;j++){
-      if(ar[j]>ar[j+1]) swap(ar[j],ar[j+1]);
-    }
-  }
+int main()
+{
+  long long n;
+  cin >> n;
+  cout << to_base(n, 2) << endl;  // n2
+  cout << to_base(n, 16) << endl; // n16
+  cout << to_base(n, 36) << endl; // n36
 }
-
-

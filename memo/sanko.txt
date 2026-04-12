@@ -1,0 +1,17 @@
+O(1) 配列アクセス
+O(log N) 二分探索
+O(N) 1回走査
+O(N log N) ソート
+O(N^2) ペア全探索
+O(N^3) 3要素全探索
+O(2^N) 部分集合
+O(N!) 順列
+
+BFS/DFS: O(V+E)
+Dijkstra: O(E log V)
+Union-Find: ほぼO(1)
+累積和: 構築O(N), 区間取得O(1)
+Fenwick/SegTree: O(log N)
+gcd: O(log N)
+素因数分解: O(√N)
+篩: O(N log log N)

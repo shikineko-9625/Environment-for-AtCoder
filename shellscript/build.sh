@@ -9,7 +9,7 @@ ATCODER_COUNT=$(grep -o "atcoder" "$SOURCE_FILE" | wc -l)
 # "gmpxx.h"をカウント (gmpxx.hのため)
 GMP_COUNT=$(grep -o "gmpxx.h" "$SOURCE_FILE" | wc -l)
 
-# コンパイルオプションの決定
+# コンパイルオプション
 CXX_FLAGS="-std=gnu++20 -O2 -Wall -Wextra"
 LINK_FLAGS=""
 

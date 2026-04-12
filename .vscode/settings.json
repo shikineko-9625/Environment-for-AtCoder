@@ -7,5 +7,29 @@
         "cls",
         "clear-host"
     ],
-    "terminal.integrated.shellIntegration.enabled": false
+    "terminal.integrated.shellIntegration.enabled": false,
+    // ===ココから拡張機能用の設定===
+    "indentRainbow.indicatorStyle": "light", // 帯状ではなく線にする
+    "indentRainbow.lightIndicatorStyleLineWidth": 1, // 線の太さを1pxにする
+    "editor.guides.indentation": false, // VS Code標準のガイドを無効化
+    "editor.bracketPairColorization.enabled": true, // 括弧の色を有効化
+    "editor.guides.bracketPairs": "active", // 括弧のガイドを有効化
+    // Dark Theme Colors
+    "indentRainbow.colors": [
+        "rgba(255, 179, 64, 0.7)", // 明るい橙
+        "rgba(64, 224, 208, 0.7)", // シアン
+        "rgba(127, 255, 0, 0.7)", // ライム
+        "rgba(135, 206, 250, 0.7)", // スカイブルー
+        "rgba(200, 162, 255, 0.7)", // ラベンダー
+        "rgba(255, 105, 180, 0.7)" // ピンク
+    ],
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#FFB340", // 明るい橙
+        "editorBracketHighlight.foreground2": "#40E0D0", // シアン
+        "editorBracketHighlight.foreground3": "#7FFF00", // ライム
+        "editorBracketHighlight.foreground4": "#87CEFA", // スカイブルー
+        "editorBracketHighlight.foreground5": "#C8A2FF", // ラベンダー
+        "editorBracketHighlight.foreground6": "#FF69B4" // ピンク
+    }
+    // ===ココまで拡張機能用の設定===
 }
