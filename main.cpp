@@ -1,26 +1,13 @@
 #include <bits/stdc++.h>
+#include <boost/multiprecision/cpp_int.hpp>
 using namespace std;
-
-string to_base(long long n, int base)
-{
-  string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  if (n == 0)
-    return "0";
-
-  string res = "";
-  while (n > 0)
-  {
-    res = digits[n % base] + res;
-    n /= base;
-  }
-  return res;
-}
+using namespace boost::multiprecision;
+using i64 = int64_t;
+using u64 = uint64_t;
 
 int main()
 {
-  long long n;
-  cin >> n;
-  cout << to_base(n, 2) << endl;  // n2
-  cout << to_base(n, 16) << endl; // n16
-  cout << to_base(n, 36) << endl; // n36
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  
 }
