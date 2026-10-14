@@ -30,6 +30,7 @@
         "editorBracketHighlight.foreground4": "#87CEFA", // スカイブルー
         "editorBracketHighlight.foreground5": "#C8A2FF", // ラベンダー
         "editorBracketHighlight.foreground6": "#FF69B4" // ピンク
-    }
+    },
     // ===ココまで拡張機能用の設定===
+    "workbench.experimental.modernUI": false
 }
