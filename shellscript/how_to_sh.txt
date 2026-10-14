@@ -9,3 +9,5 @@
 ./sh/build.sh main debug # デバッグオプション付きでmain.cppをコンパイル
 ./sh/build.sh nya debug  # デバッグオプション付きでnya.cppをコンパイル
 
+// 出典
+// https://qiita.com/sorachandu/items/a06e4ed61d169ba067f3
