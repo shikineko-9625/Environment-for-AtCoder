@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 #include <boost/multiprecision/cpp_int.hpp>
+// Template
+// https://github.com/shikineko-9625/Environment-for-AtCoder/
 using namespace std;
 using namespace boost::multiprecision;
 using i64 = int64_t;
